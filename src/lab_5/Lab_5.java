@@ -75,10 +75,5 @@ public class Lab_5 {
         double dis=CenterToCenterDistance(cir);
         return (dis==this.r+cir.r)||(dis==Math.abs(this.r-cir.r));
     }
-
-// Методом вычисляется расстояние до точки:
-double getDistance(){
-return Math.sqrt(x*x+y*y+r*r);
-}
-
+ 
  }   
